@@ -42,7 +42,11 @@
   outline: none;
 }
 
-.row-wrapper {
+.new {
+  margin: 1em auto;
+}
+
+.new__row-wrapper {
   display: flex;
 }
 
@@ -77,7 +81,7 @@
 
 /* Heading */
 .title,
-.new {
+.new__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -109,12 +113,12 @@
 }
 
 /* New Task */
-.new {
+.new__title {
   display: block;
   margin: 0 0 20px;
 }
 
-#new {
+#new__input {
   width: 318px;
 }
 

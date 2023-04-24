@@ -9,21 +9,21 @@
 </head>
 
 <body class="body">
-  <div class="header">
+  <header class="header">
     <img src="./eisenhower-matrix.jpg" alt="eisenhower-matrix"
       class="header__img">
     <a class="header__more-inf"
       href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?</a>
-  </div>
-  <div class="main-wrapper">
-    <p>
-      <label for="new" class="new">Add Item</label>
-    <div class="row-wrapper">
-      <input id="new" class="task" type="text">
-      <button class="task__add">Add</button>
-    </div>
-    </p>
+  </header>
+  <main class="main-wrapper">
+    <section class="new">
+      <h3 class="new__title">Add Item</h3>
+      <div class="new__row-wrapper">
+        <input id="new__input" class="task" type="text">
+        <button class="task__add">Add</button>
+      </div>
+    </section>
     <h3 class="title">Todo</h3>
     <ul id="incomplete" class="list">
       <li class="list__item">
@@ -34,7 +34,7 @@
         <button class="task__delete"><img src="./remove.svg" alt=""
             class="task__remover"></button>
       </li>
-      <li class="edit-mode list__item">
+      <li class="list__item edit-mode">
         <input type="checkbox" class="checkbox"><label class="task__label">Go
           Shopping</label>
         <input type="text" value="Go Shopping" class="task">
@@ -54,7 +54,7 @@
             class="task__remover"></button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 
